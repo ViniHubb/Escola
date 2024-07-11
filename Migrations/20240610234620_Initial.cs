@@ -20,7 +20,7 @@ namespace Escola.Migrations
                     Name = table.Column<string>(type: "nvarchar(127)", maxLength: 127, nullable: false),
                     Surname = table.Column<string>(type: "nvarchar(127)", maxLength: 127, nullable: false),
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", maxLength: 31, nullable: false),
-                    Class = table.Column<string>(type: "nvarchar(127)", maxLength: 127, nullable: false),
+                    Classe = table.Column<string>(type: "nvarchar(127)", maxLength: 127, nullable: false),
                     GPA = table.Column<float>(type: "real", maxLength: 7, nullable: false)
                 },
                 constraints: table =>
